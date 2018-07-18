@@ -1,15 +1,16 @@
 {
   "name": "devpool",
   "description": "Devpool developers API",
-  "version": "0.0.0",
-  "homepage": "",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "private": true,
   "main": "src",
   "keywords": [
     "feathers"
   ],
   "author": {
-    "name": "DadidaOchieng",
-    "email": "fred.ochieng@sinbad.co.ke"
+    "name": "CasparDevelopers",
+    "email": "platform@casparcoding.com"
   },
   "contributors": [],
   "bugs": {},
@@ -26,6 +27,8 @@
     "eslint": "eslint src/. test/. --config .eslintrc.json",
     "start": "node src/",
     "dev": "nodemon src/",
+    "migrate": "sequelize db:migrate",
+    "seed": "sequelize db:seed:all",
     "mocha": "mocha test/ --recursive --exit"
   },
   "dependencies": {
@@ -38,8 +41,10 @@
     "cors": "^2.8.4",
     "feathers-sequelize": "^3.1.2",
     "helmet": "^3.12.1",
+    "lodash": "^4.17.10",
     "pg": "^7.4.3",
     "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0",
     "serve-favicon": "^2.5.0",
     "winston": "^3.0.0"
   },
