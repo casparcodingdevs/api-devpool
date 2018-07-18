@@ -63,6 +63,10 @@ module.exports = function (app) {
       validate: { isIn: [['female', 'male']]}
     },
 
+    deleted: {
+      type: DataTypes.BOOLEAN
+    },
+
     suspended_at: { type: DataTypes.DATE },
     suspended_by: { type: Sequelize.UUID },
 

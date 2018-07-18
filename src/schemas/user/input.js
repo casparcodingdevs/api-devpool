@@ -73,6 +73,10 @@ const schema = Joi.object().keys({
     create: [ 'admin' ],
     update: [ 'admin' ],
   }),
+  deleted: Joi.boolean().authorize({
+    create: ['admin'],
+    update: ['admin'],
+  }),
 });
 
 module.exports = schema;

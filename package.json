@@ -32,6 +32,7 @@
     "mocha": "mocha test/ --recursive --exit"
   },
   "dependencies": {
+    "@feathersjs/authentication-local": "^1.2.1",
     "@feathersjs/configuration": "^1.0.2",
     "@feathersjs/errors": "^3.3.0",
     "@feathersjs/express": "^1.2.3",
@@ -39,8 +40,11 @@
     "@feathersjs/socketio": "^3.2.2",
     "compression": "^1.7.3",
     "cors": "^2.8.4",
+    "feathers-hooks-common": "^4.14.3",
     "feathers-sequelize": "^3.1.2",
+    "filter-object": "^3.0.0",
     "helmet": "^3.12.1",
+    "joi": "^13.4.0",
     "lodash": "^4.17.10",
     "pg": "^7.4.3",
     "sequelize": "^4.38.0",
