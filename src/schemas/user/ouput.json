@@ -1,0 +1,81 @@
+{
+    "id": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "roles": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "surname": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "forename": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "password_reset_valid_until": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "email_verify_valid_until": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "email": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "locale": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "profile_picture": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "timezone": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "phone_number": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "gender": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "homezone_country_code": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "homezone_city_code": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "homezone_district_code": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "homezone_zipcode": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "consent_update_requested_at": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "is_consent_update_required": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "is_consenting_privacy_policy_and_terms": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "is_consenting_public_profile": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "is_consenting_newsletters": {
+          "authorize": [ "owner", "admin" ]
+    },
+    "suspended_at": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "verified_at": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "created_at": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "updated_at": {
+          "authorize": [ "owner", "admin" ]
+      },
+    "last_logged_in_at": {
+          "authorize": [ "owner", "admin" ]
+    }
+  }
+  
