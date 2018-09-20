@@ -18,6 +18,8 @@ const channels = require('./channels');
 
 const sequelize = require('./lib/sequelize');
 
+const sequelize = require('./sequelize');
+
 const app = express(feathers());
 
 // Load app configuration
@@ -35,6 +37,8 @@ app.use('/', express.static(app.get('public')));
 // Set up Plugins and providers
 app.configure(express.rest());
 app.configure(socketio());
+
+app.configure(sequelize);
 
 app.configure(sequelize);
 
